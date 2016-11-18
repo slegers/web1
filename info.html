@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Info - frituur Sportcentrum</title>
+    <link rel="stylesheet" type="text/css" href="css/stijlblad.css"> </head>
+
+<body>
+    <div id="fb-root"></div>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/nl_NL/sdk.js#xfbml=1&version=v2.8";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <header class="header"> <img class="banner" src="images/banner.png" width="1250" height="366" alt="banner"><img class="headerLogo" src="images/logo.JPG" alt="logo" width="150" height="212">
+        <h1 id="top" class="headerTitle">Frituur Sportcentrum</h1>
+        <nav class="mainMenu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="#top">Info</a></li>
+            </ul>
+        </nav>
+    </header>
+    <aside class="leftSidebar">
+        <article class="maandSnack">
+            <h3>Snack van de maand</h3><img src="images/snack_maand.png" height="140" width="215" alt="snack van de maand"></article>
+        <h3>Openingsuren</h3>
+        <ul>
+            <li> di: 11u30 - 14u00 en 16u30 - 22u00 </li>
+            <li> woens: 11u30 - 14u00 en 16u30 - 22u00</li>
+            <li> don: 11u30 - 14u00 en 16u30 - 22u00</li>
+            <li> vrij: 11u30 - 14u00 en 16u30 - 22u00</li>
+            <li> ma &amp; zon: gesloten</li>
+        </ul>
+        <div class="fb-page" data-href="https://www.facebook.com/Frituur-sportcentrum-bij-Bart-en-Laura-197600157001202/?fref=ts" data-tabs="timeline" data-width="180" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+            <blockquote cite="https://www.facebook.com/Frituur-sportcentrum-bij-Bart-en-Laura-197600157001202/?fref=ts" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Frituur-sportcentrum-bij-Bart-en-Laura-197600157001202/?fref=ts">Frituur sportcentrum bij Bart en Laura</a></blockquote>
+        </div>
+    </aside>
+    <main>
+        <h1>Info</h1>
+        <article class="adres">
+            <h2>Adres</h2>
+            <p><address>Wij zijn te vinden op de Tervuursevest ter hoogte van parking OHL 3000 Leuven.</address></p>
+            <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+            <div style="overflow:hidden;height:440px;width:700px;">
+                <div id="gmap_canvas" style="height:440px;width:700px;"></div>
+                <div><small><a href="http://embedgooglemaps.com">google maps code</a></small></div>
+                <div><small><a href="https://www.biludlejning.world/">biludlejning</a></small></div>
+                <style>
+                    #gmap_canvas img {
+                        max-width: none!important;
+                        background: none!important
+                    }
+                </style>
+            </div>
+            <script type="text/javascript">
+                function init_map() {
+                    var myOptions = {
+                        zoom: 16
+                        , center: new google.maps.LatLng(50.86886244188436, 4.696045479762225)
+                        , mapTypeId: google.maps.MapTypeId.ROADMAP
+                    };
+                    map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
+                    marker = new google.maps.Marker({
+                        map: map
+                        , position: new google.maps.LatLng(50.86886244188436, 4.696045479762225)
+                    });
+                    infowindow = new google.maps.InfoWindow({
+                        content: '<strong>Frituur Sportkot</strong><br>Tervuursevest 21<br>'
+                    });
+                    google.maps.event.addListener(marker, 'click', function () {
+                        infowindow.open(map, marker);
+                    });
+                    infowindow.open(map, marker);
+                }
+                google.maps.event.addDomListener(window, 'load', init_map);
+            </script>
+        </article>
+        <article class="openingsuren">
+            <h2>Openingsuren</h2>
+            <table>
+                <tr>
+                    <th>Dag</th>
+                    <th>Openingsuren</th>
+                </tr>
+                <tr>
+                    <td>Maandag</td>
+                    <td>Gesloten</td>
+                </tr>
+                <tr>
+                    <td>Dinsdag</td>
+                    <td>van 11u30 tot 14u00 en van 16u30 tot 22u</td>
+                </tr>
+                <tr>
+                    <td>Woensdag</td>
+                    <td>van 11u30 tot 14u00 en van 16u30 tot 22u</td>
+                </tr>
+                <tr>
+                    <td>Donderdag</td>
+                    <td>van 11u30 tot 14u00 en van 16u30 tot 22u</td>
+                </tr>
+                <tr>
+                    <td>Vrijdag</td>
+                    <td>van 11u30 tot 14u00 en van 16u30 tot 22u</td>
+                </tr>
+                <tr>
+                    <td>Zaterdag</td>
+                    <td>van 11u30 tot 14u00 en van 16u30 tot 22u</td>
+                </tr>
+                <tr>
+                    <td>Zondag</td>
+                    <td>Gesloten</td>
+                </tr>
+                <tr>
+                    <td>Feestdag</td>
+                    <td>Gesloten</td>
+                </tr>
+            </table>
+            <p>Tussen Kerstmis en Nieuwjaar zijn wij steeds gesloten. Tijdens het bouwverlof nemen wij naar jaarlijkse traditie ook twee weken rust. Op onze <a href="https://www.facebook.com/Frituur-sportcentrum-bij-Bart-en-Laura-197600157001202/?fref=ts">facebookpagina</a> posten wij ook steeds lastminute wijzigingen.</p>
+        </article>
+        <article class="contact">
+            <h2>Contact</h2>
+            <p> U kan ons steeds proberen te bellen op het nummer 0493 58 95 98. Voor minder spoedige zaken kan u via onderstaand formulier steeds een mail sturen.</p>
+            <fieldset>
+                <legend> Uw gegevens</legend>
+                <label for="naam">Naam:
+                    <input id="naam" type="text" required>
+                    <br>
+                    <br> </label>
+                <label for="e-mailadres">e-mailadres:
+                    <input id="mailadres" type="text">
+                    <br>
+                    <br> </label>
+                <label for="gsm-/telefoonnummer">gsm-/telefoonnummer:
+                    <input id="nummer:" type="text">
+                    <br>
+                    <br> </label>
+            </fieldset>
+            <fieldset>
+                <legend> mail</legend>
+                <label for="subject">Onderwerp:
+                    <br>
+                    <input id="subject" type="text" required size="60">
+                    <br>
+                    <br> </label>
+                <label for="mail">
+                    <textarea rows="14" cols="90" name="comment" form="usrform"> Schrijf hier je mail...</textarea>
+                    <br>
+                    <br> </label>
+                <label for="copy"> Wil je een kopie van deze mail ontvangen?
+                    <input id="copy" type="checkbox">
+                    <br>
+                    <br> </label>
+                <label for="contactWay"> Hoe kunnen we u best bereiken?</label>
+                <select id="contactWay" name="contactWay" title="contact manier">
+                    <option value="gsm"> Gsm</option>
+                    <option value="mail"> E-mail</option>
+                </select>
+                <br>
+                <label for="submit">
+                    <input id="submit" type="submit" value="Verzenden"> </label>
+            </fieldset>
+        </article>
+    </main>
+    <footer class="footer">
+        <nav id="footer-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="#top">Info</a></li>
+            </ul>
+        </nav>
+        <p>&copy; Yanice Slegers, 2016</p> <img src="images/bicky.jpg" alt="Bicky logo" width="205" height="160"> <address>Tervuursevest ter hoogte van parking OHL 3000 Leuven.</address> </footer>
+</body>
+
+</html>
