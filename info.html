@@ -18,16 +18,15 @@
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
     </script>
-    <header class="header"> <img class="banner" src="images/banner.png" width="1250" height="366" alt="banner"><img class="headerLogo" src="images/logo.JPG" alt="logo" width="150" height="212">
-        <h1 id="top" class="headerTitle">Frituur Sportcentrum</h1>
+    <header class="header">
         <nav class="mainMenu">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="menu.html">Menu</a></li>
                 <li><a href="#top">Info</a></li>
             </ul>
-        </nav>
-    </header>
+        </nav><img class="banner" src="images/banner.png" width="1250" height="366" alt="banner"><img class="headerLogo" src="images/logo.JPG" alt="logo" width="150" height="212">
+        <h1 id="top" class="headerTitle">Frituur Sportcentrum</h1> </header>
     <aside class="leftSidebar">
         <article class="maandSnack">
             <h3>Snack van de maand</h3><img src="images/snack_maand.png" height="140" width="215" alt="snack van de maand"></article>
@@ -45,44 +44,6 @@
     </aside>
     <main>
         <h1>Info</h1>
-        <article class="adres">
-            <h2>Adres</h2>
-            <p><address>Wij zijn te vinden op de Tervuursevest ter hoogte van parking OHL 3000 Leuven.</address></p>
-            <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
-            <div style="overflow:hidden;height:440px;width:700px;">
-                <div id="gmap_canvas" style="height:440px;width:700px;"></div>
-                <div><small><a href="http://embedgooglemaps.com">google maps code</a></small></div>
-                <div><small><a href="https://www.biludlejning.world/">biludlejning</a></small></div>
-                <style>
-                    #gmap_canvas img {
-                        max-width: none!important;
-                        background: none!important
-                    }
-                </style>
-            </div>
-            <script type="text/javascript">
-                function init_map() {
-                    var myOptions = {
-                        zoom: 16
-                        , center: new google.maps.LatLng(50.86886244188436, 4.696045479762225)
-                        , mapTypeId: google.maps.MapTypeId.ROADMAP
-                    };
-                    map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
-                    marker = new google.maps.Marker({
-                        map: map
-                        , position: new google.maps.LatLng(50.86886244188436, 4.696045479762225)
-                    });
-                    infowindow = new google.maps.InfoWindow({
-                        content: '<strong>Frituur Sportkot</strong><br>Tervuursevest 21<br>'
-                    });
-                    google.maps.event.addListener(marker, 'click', function () {
-                        infowindow.open(map, marker);
-                    });
-                    infowindow.open(map, marker);
-                }
-                google.maps.event.addDomListener(window, 'load', init_map);
-            </script>
-        </article>
         <article class="openingsuren">
             <h2>Openingsuren</h2>
             <table>
@@ -123,7 +84,45 @@
                     <td>Gesloten</td>
                 </tr>
             </table>
-            <p>Tussen Kerstmis en Nieuwjaar zijn wij steeds gesloten. Tijdens het bouwverlof nemen wij naar jaarlijkse traditie ook twee weken rust. Op onze <a href="https://www.facebook.com/Frituur-sportcentrum-bij-Bart-en-Laura-197600157001202/?fref=ts">facebookpagina</a> posten wij ook steeds lastminute wijzigingen.</p>
+            <p>Tussen Kerstmis en Nieuwjaar zijn wij steeds gesloten. Tijdens het bouwverlof nemen wij naar jaarlijkse traditie ook twee weken rust. Wij posten lastminute wijzingen steeds Op onze <a href="https://www.facebook.com/Frituur-sportcentrum-bij-Bart-en-Laura-197600157001202/?fref=ts">facebookpagina.</a></p>
+        </article>
+        <article class="adres">
+            <h2>Adres</h2>
+            <p><address>Wij zijn te vinden op de Tervuursevest ter hoogte van parking OHL 3000 Leuven.</address></p>
+            <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+            <div style="overflow:hidden;height:440px;width:700px;">
+                <div id="gmap_canvas" style="height:440px;width:700px;"></div>
+                <div><small><a href="http://embedgooglemaps.com">google maps code</a></small></div>
+                <div><small><a href="https://www.biludlejning.world/">biludlejning</a></small></div>
+                <style>
+                    #gmap_canvas img {
+                        max-width: none!important;
+                        background: none!important
+                    }
+                </style>
+            </div>
+            <script type="text/javascript">
+                function init_map() {
+                    var myOptions = {
+                        zoom: 16
+                        , center: new google.maps.LatLng(50.86886244188436, 4.696045479762225)
+                        , mapTypeId: google.maps.MapTypeId.ROADMAP
+                    };
+                    map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
+                    marker = new google.maps.Marker({
+                        map: map
+                        , position: new google.maps.LatLng(50.86886244188436, 4.696045479762225)
+                    });
+                    infowindow = new google.maps.InfoWindow({
+                        content: '<strong>Frituur Sportkot</strong><br>Tervuursevest 21<br>'
+                    });
+                    google.maps.event.addListener(marker, 'click', function () {
+                        infowindow.open(map, marker);
+                    });
+                    infowindow.open(map, marker);
+                }
+                google.maps.event.addDomListener(window, 'load', init_map);
+            </script>
         </article>
         <article class="contact">
             <h2>Contact</h2>
