@@ -1,5 +1,5 @@
     body {
-        background-color: cyan;
+        background-color: darkred;
         margin: 0;
     }
     /* HEADER*/
@@ -12,16 +12,6 @@
         background-repeat: no-repeat, no-repeat;
     }
     
-    .mainMenu > ul {
-        width: 25%;
-    }
-    
-    mainMenu ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-    }
-    
     .headerlogo {
         background-image: url(../images/banner.png);
         height: 100px;
@@ -32,88 +22,208 @@
         font-family: verdana, sans-serif;
     }
     
-    h1.headerTitle {}
-    
-    .headerLogo {
-        margin-top: -100px;
-    }
-    /** SIDEBAR **/
-    
-    .leftSidebar {
-        border: 1px solid #000;
-        width: 24%;
-        display: inline;
-        float: left;
-    }
-    
-    .maandSnack {
-        border: 1px solid red;
-        width: 100%;
+    .headerTitle {
+        border: 1px dashed #000;
         display: inline-block;
-    }
-    
-    .openingsuren {
-        border: 1px solid green;
-        width: 100%;
-        /*display: inline-block; */
-    }
-    
-    .fb-page {
-        border: 1px solid yellow;
-        width: 100%;
-    }
-    /** MAIN **/
-    
-    main {
-        border: 1px solid #000;
-        display: inline-block;
-        width: 75%;
-        /* position: absolute; */
     }
     /* MAIN MENU*/
     
-    ul {
+    .mainMenu {
         margin: 0;
-        padding-left: 0px;
-        padding-bottom: 0px;
-        padding-right: 0px;
-        padding-top: 0px;
-        width: 100%;
-        background-color: #f1f1f1;
+        padding: 0;
+        float: right;
     }
     
-    li {}
+    .mainMenu ul {
+        list-style-type: none;
+    }
     
-    li a {
-        display: block;
+    .mainMenu li {
+        border: 1px dashed #000;
+        list-style-type: none;
+        margin: 10px;
+        padding: 20px;
+        display: inline;
+        border-bottom-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+        border-top-left-radius: 35px;
+        border-top-right-radius: 35px;
+        background-color: aliceblue;
+    }
+    
+    li > a {
         color: #000;
-        padding: 8px 16px;
-        font-size: 30px;
+        font-size: 40px;
         text-decoration: none;
     }
     
     li a:hover {
         background-color: blue;
         color: white;
+        display: inline;
+        margin: 10px;
+        padding: 20px;
+        border-bottom-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+        border-top-left-radius: 35px;
+        border-top-right-radius: 35px;
+    }
+    /** CONTAINER **/
+    
+    .container {
+        border: 1px dashed #000;
+        overflow: hidden;
+    }
+    /** SIDEBAR **/
+    
+    .leftSidebar {
+        border: 1px dashed #000;
+        display: inline;
+        float: left;
+        background-color: firebrick;
+        height: 100%;
+        border-bottom-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+        border-top-left-radius: 35px;
+        border-top-right-radius: 35px;
+        padding: 0px 9px;
+    }
+    
+    .leftSidebar h3 {
+        text-align: center;
+    }
+    
+    .maandSnack {
+        border: 1px solid red;
+        width: 100%;
+        display: inline-block;
+        background-color: white;
+        margin: 25px 0px;
+        border-bottom-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+        border-top-left-radius: 35px;
+        border-top-right-radius: 35px;
+    }
+    
+    .maandSnack img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 10px;
+    }
+    
+    .openingsuren {
+        border: 1px solid green;
+        width: 100%;
+        /*display: inline-block; */
+        background-color: white;
+        margin: 25px 0px;
+        padding: 15px 0px;
+        border-bottom-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+        border-top-left-radius: 35px;
+        border-top-right-radius: 35px;
+    }
+    
+    .fb-page {
+        border: 1px solid yellow;
+        width: 100%;
+        background-color: white;
+        margin: 25px 0px;
+        border-bottom-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+        border-top-left-radius: 35px;
+        border-top-right-radius: 35px;
+    }
+    /** MAIN **/
+    
+    main {
+        border: 1px solid #000;
+        display: inline-block;
+        background-color: white;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        /* position: absolute; */
+        width: 72%;
+        margin-left: 10px;
+    }
+    
+    main > img {
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        margin-left: 5%;
+        margin-top: 2%;
+        display: inline-block;
+        border: 1px solid blue;
+        float: right;
+        position: static;
+    }
+    
+    main > h1 {
+        text-align: center;
+    }
+    
+    main > p {
+        display: inline-block;
+        border: 1px solid red;
     }
     /** FOOTER */
     
     .footer {
         background-color: dimgrey;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        margin: 10px;
+        width: 75%;
+        float: right;
     }
     
     footer > * {
         display: inline;
     }
     
-    #footer-menu >ul {
+    .copyright {
+        display: inline-block;
+        font-size: 8px;
+    }
+    
+    .footer-menu {
+        position: relative;
+    }
+    
+    .footer-menu > nav {
+        border: 1px solid red;
+    }
+    
+    .footer-menu > ul {
         border: 1px solid red;
         width: 25%;
         display: inline-block;
+        list-style: none;
     }
     
     .footer-menu >li {
         border: 1px solid red;
         width: 25%;
         display: inline-block;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+    }
+    
+    .partners {
+        display: inline-block;
+        border: 1px solid red;
+    }
+    
+    .partners > h3 {
+        text-align: center;
+        margin: 0px;
     }
