@@ -32,18 +32,22 @@
         <aside class="leftSidebar">
             <article class="maandSnack">
                 <h3>Snack van de maand</h3><img src="images/snack_maand.png" height="140" width="215" alt="snack van de maand"></article>
-            <h3>Openingsuren</h3>
-            <ul>
-                <li> di: 11u30 - 14u00 en 16u30 - 22u00 </li>
-                <li> woens: 11u30 - 14u00 en 16u30 - 22u00</li>
-                <li> don: 11u30 - 14u00 en 16u30 - 22u00</li>
-                <li> vrij: 11u30 - 14u00 en 16u30 - 22u00</li>
-                <li> ma &amp; zon: gesloten</li>
-            </ul>
-            <h3>Fb button</h3>
-            <div class="fb-page" data-href="https://www.facebook.com/Frituur-sportcentrum-bij-Bart-en-Laura-197600157001202/?fref=ts" data-tabs="timeline" data-width="180" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
-                <blockquote cite="https://www.facebook.com/Frituur-sportcentrum-bij-Bart-en-Laura-197600157001202/?fref=ts" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Frituur-sportcentrum-bij-Bart-en-Laura-197600157001202/?fref=ts">Frituur sportcentrum bij Bart en Laura</a></blockquote>
-            </div>
+            <article class="openingsuren">
+                <h3>Openingsuren</h3>
+                <ul>
+                    <li> di: 11u30 - 14u00 en 16u30 - 22u00 </li>
+                    <li> woens: 11u30 - 14u00 en 16u30 - 22u00</li>
+                    <li> don: 11u30 - 14u00 en 16u30 - 22u00</li>
+                    <li> vrij: 11u30 - 14u00 en 16u30 - 22u00</li>
+                    <li> ma &amp; zon: gesloten</li>
+                </ul>
+            </article>
+            <article class="fb">
+                <h3>Fb button</h3>
+                <div class="fb-page" data-href="https://www.facebook.com/Frituur-sportcentrum-bij-Bart-en-Laura-197600157001202/?fref=ts" data-tabs="timeline" data-width="250" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                    <blockquote cite="https://www.facebook.com/Frituur-sportcentrum-bij-Bart-en-Laura-197600157001202/?fref=ts" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Frituur-sportcentrum-bij-Bart-en-Laura-197600157001202/?fref=ts">Frituur sportcentrum bij Bart en Laura</a></blockquote>
+                </div>
+            </article>
         </aside>
         <main>
             <h1>Info</h1>
@@ -130,45 +134,47 @@
             <article class="contact">
                 <h2>Contact</h2>
                 <p> U kan ons steeds proberen te bellen op het nummer 0493 58 95 98. Voor minder spoedige zaken kan u via onderstaand formulier steeds een mail sturen.</p>
-                <fieldset>
-                    <legend> Uw gegevens</legend>
-                    <label for="naam">Naam:
-                        <input id="naam" type="text" required>
+                <form method="post" action="mailto">
+                    <fieldset>
+                        <legend> Uw gegevens</legend>
+                        <label for="naam">Naam:
+                            <input id="naam" type="text" required>
+                            <br>
+                            <br> </label>
+                        <label for="e-mailadres">e-mailadres:
+                            <input id="mailadres" type="email">
+                            <br>
+                            <br> </label>
+                        <label for="gsm-/telefoonnummer">gsm-/telefoonnummer:
+                            <input id="nummer:" type="text">
+                            <br>
+                            <br> </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend> mail</legend>
+                        <label for="subject">Onderwerp:
+                            <br>
+                            <input id="subject" type="text" required size="60">
+                            <br>
+                            <br> </label>
+                        <label for="mail">
+                            <textarea rows="14" cols="90" name="comment" form="usrform"> Schrijf hier je mail...</textarea>
+                            <br>
+                            <br> </label>
+                        <label for="copy"> Wil je een kopie van deze mail ontvangen?
+                            <input id="copy" type="checkbox">
+                            <br>
+                            <br> </label>
+                        <label for="contactWay"> Hoe kunnen we u best bereiken?</label>
+                        <select id="contactWay" name="contactWay" title="contact manier">
+                            <option value="gsm"> Gsm</option>
+                            <option value="mail"> E-mail</option>
+                        </select>
                         <br>
-                        <br> </label>
-                    <label for="e-mailadres">e-mailadres:
-                        <input id="mailadres" type="text">
-                        <br>
-                        <br> </label>
-                    <label for="gsm-/telefoonnummer">gsm-/telefoonnummer:
-                        <input id="nummer:" type="text">
-                        <br>
-                        <br> </label>
-                </fieldset>
-                <fieldset>
-                    <legend> mail</legend>
-                    <label for="subject">Onderwerp:
-                        <br>
-                        <input id="subject" type="text" required size="60">
-                        <br>
-                        <br> </label>
-                    <label for="mail">
-                        <textarea rows="14" cols="90" name="comment" form="usrform"> Schrijf hier je mail...</textarea>
-                        <br>
-                        <br> </label>
-                    <label for="copy"> Wil je een kopie van deze mail ontvangen?
-                        <input id="copy" type="checkbox">
-                        <br>
-                        <br> </label>
-                    <label for="contactWay"> Hoe kunnen we u best bereiken?</label>
-                    <select id="contactWay" name="contactWay" title="contact manier">
-                        <option value="gsm"> Gsm</option>
-                        <option value="mail"> E-mail</option>
-                    </select>
-                    <br>
-                    <label for="submit">
-                        <input id="submit" type="submit" value="Verzenden"> </label>
-                </fieldset>
+                        <label for="submit">
+                            <input id="submit" type="submit" value="Verzenden"> </label>
+                    </fieldset>
+                </form>
             </article>
         </main>
     </div>
@@ -181,7 +187,9 @@
             </ul>
         </nav>
         <section class="partners">
-            <h3>Partner</h3> <img src="images/bicky.jpg" alt="Bicky logo" width="205" height="160"></section> <address>Tervuursevest ter hoogte van parking OHL 3000 Leuven</address>
+            <h3>Partner</h3> <img src="images/bicky.jpg" alt="Bicky logo" width="205" height="160"></section>
+        <section class="contactFooter">
+            <h3>Contact</h3> <address>Tervuursevest ter hoogte van parking OHL 3000 Leuven</address> </section>
         <p class="copyright">&copy; Yanice Slegers, 2016</p>
     </footer>
 </body>
