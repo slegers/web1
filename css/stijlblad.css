@@ -65,6 +65,7 @@
             color: #000;
             font-size: 40px;
             text-decoration: none;
+            margin: auto;
         }
         
         li a:hover {
@@ -177,6 +178,29 @@
         
         main > h1 {
             text-align: center;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        
+        main > h1:before,
+        main > h1:after {
+            flex-grow: 1;
+            height: 1px;
+            content: '\a0';
+            background-color: black;
+            position: relative;
+            top: 0.5em;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+        
+        main > h1:before {
+            margin-right: 20px;
+        }
+        
+        main> h1:after {
+            margin-left: 20px;
         }
         
         main > p {
@@ -200,41 +224,46 @@
             display: inline;
         }
         
-        .footer-menu {
-            position: relative;
-            padding: 20px;
+        .footer-menu > ul > li > a {
+            color: aliceblue;
         }
         
-        .footer-menu > nav {
-            border: 1px solid red;
+        .footer-menu > ul > li a:hover {
+            color: blue;
+            display: inline;
+            margin: auto;
         }
         
         .footer-menu > ul {
-            border: 1px solid red;
             width: 25%;
             display: inline-block;
+            position: inherit;
             list-style: none;
+            margin-top: 10px;
         }
         
         .partners {
             display: inline-block;
-            border: 1px solid red;
+            margin-top: 20px;
+            margin-right: 30px;
+            padding: 15px;
         }
         
-        .partners > h3 {
+        .partners > h2 {
             text-align: center;
             margin: 0px;
         }
         
         .contactFooter {
             display: inline-block;
-            border: 1px solid red;
             color: aliceblue;
+            width: 200px;
+            margin-left: 80px;
         }
         
         .copyright {
-            display: inline-block;
+            display: inline;
             font-size: 12px;
             float: right;
-            margin-right: 28px;
+            width: auto;
         }
