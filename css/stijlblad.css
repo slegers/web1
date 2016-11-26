@@ -16,13 +16,6 @@
                 background-repeat: no-repeat, no-repeat;
             }
             
-            p {
-                display: inline;
-                width: 45%;
-                margin: 5px 50px;
-                font-family: verdana, sans-serif;
-            }
-            
             .headerTitle {
                 display: inline-block;
                 padding: 0px;
@@ -53,7 +46,7 @@
             .mainMenu ul {
                 list-style-type: none;
                 margin: auto;
-                padding-right: 45px;
+                padding-right: 83px;
             }
             
             .mainMenu li {
@@ -180,10 +173,11 @@
                 border-top-right-radius: 25px;
                 margin-left: 5%;
                 margin-top: 2%;
+                margin-right: 2%;
+                width: 40%;
                 display: inline-block;
                 border: 1px solid blue;
-                float: right;
-                position: static;
+                float: inherit;
             }
             
             main > h1 {
@@ -336,4 +330,13 @@
             #contactForm *:not(legend) {
                 width: 90%;
                 display: block;
+            }
+            /* HOMEpage  */
+            
+            p {
+                display: inline;
+                width: 40%;
+                margin: 5px 50px;
+                font-family: verdana, sans-serif;
+                flex: none;
             }
