@@ -100,7 +100,6 @@
             }
             
             .maandSnack {
-                border: 1px solid red;
                 width: 100%;
                 display: inline-block;
                 background-color: white;
@@ -132,7 +131,6 @@
             }
             
             .fb {
-                border: 1px solid yellow;
                 width: 100%;
                 background-color: white;
                 height: 600px;
@@ -147,7 +145,7 @@
             }
             
             .fb-page {
-                padding-left: 25px;
+                padding-left: 20px;
                 padding-bottom: 10px;
                 width: 100%;
             }
@@ -155,14 +153,13 @@
             
             main {
                 margin: 20px 0px;
-                border: 1px solid #000;
                 display: inline-block;
                 background-color: white;
                 border-bottom-left-radius: 25px;
                 border-bottom-right-radius: 25px;
                 border-top-left-radius: 25px;
                 border-top-right-radius: 25px;
-                width: 70%;
+                width: 75%;
                 margin-left: 10px;
             }
             
@@ -175,7 +172,6 @@
                 margin-top: 2%;
                 margin-right: 2%;
                 width: 40%;
-                border: 1px solid blue;
             }
             
             main > h1 {
@@ -212,7 +208,7 @@
                 border-bottom-right-radius: 25px;
                 border-top-left-radius: 25px;
                 border-top-right-radius: 25px;
-                width: 70%;
+                width: 75%;
                 margin-left: 22%;
             }
             
@@ -257,8 +253,8 @@
             .copyright {
                 display: inline;
                 font-size: 12px;
-                float: right;
                 width: auto;
+                float: right;
             }
             /* INFO PAGE**/
             
@@ -322,20 +318,24 @@
                 display: block;
             }
             
-            #hygiene,
             #welkom {
                 width: 40%;
                 display: inline-block;
-                height: 100px;
                 margin-left: 5%;
+                margin-bottom: 3%;
             }
             
             #hygiene {
-                width: 37%;
+                width: 47%;
+                float: right;
             }
             
             p {
-                font-size: 20px;
+                font-size: 17px;
+            }
+            
+            #frietbak {
+                margin-top: 5%;
             }
             
             #locatieT {
