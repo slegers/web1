@@ -2,10 +2,6 @@
                 background-color: darkred;
                 margin: 0;
             }
-            
-            a.active {
-                color: blue;
-            }
             /* HEADER*/
             
             .banner {
@@ -30,12 +26,21 @@
                 margin-left: 40px;
             }
             
-            h1.headerTitle {
+            h1.headerTitle,
+            h2,
+            h3 {
                 font-family: "Comic Sans MS", cursive, sans-serif;
+            }
+            
+            h1.headerTitle {
                 font-size: 52px;
                 color: yellow;
             }
-            /* MAIN MENU*/
+            /*MENU*/
+            
+            .footer-menu > ul > li > a {
+                color: aliceblue;
+            }
             
             .mainMenu {
                 float: right;
@@ -60,18 +65,16 @@
                 border-top-right-radius: 35px;
             }
             
-            li > a {
-                color: #000;
-                font-size: 40px;
-                text-decoration: none;
+            nav > ul > li a:hover {
+                color: blue;
+                display: inline;
                 margin: auto;
             }
             
-            li a:hover {
-                color: blue;
-                display: inline;
-                /*padding: 20px; */
-                margin: auto;
+            nav li > a {
+                color: #000;
+                font-size: 40px;
+                text-decoration: none;
             }
             /** CONTAINER **/
             
@@ -243,16 +246,6 @@
                 display: inline;
             }
             
-            .footer-menu > ul > li > a {
-                color: aliceblue;
-            }
-            
-            .footer-menu > ul > li a:hover {
-                color: blue;
-                display: inline;
-                margin: auto;
-            }
-            
             .footer-menu > ul {
                 width: 25%;
                 display: inline-block;
@@ -271,6 +264,8 @@
             .partners > h2 {
                 text-align: center;
                 margin: 0px;
+                color: aliceblue;
+                margin-bottom: 10px;
             }
             
             .contactFooter {
