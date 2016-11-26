@@ -175,9 +175,7 @@
                 margin-top: 2%;
                 margin-right: 2%;
                 width: 40%;
-                display: inline-block;
                 border: 1px solid blue;
-                float: inherit;
             }
             
             main > h1 {
@@ -206,11 +204,6 @@
             main> h1:after {
                 margin-left: 20px;
             }
-            
-            main > p {
-                display: inline-block;
-                border: 1px solid red;
-            }
             /** FOOTER */
             
             .footer {
@@ -219,9 +212,6 @@
                 border-bottom-right-radius: 25px;
                 border-top-left-radius: 25px;
                 border-top-right-radius: 25px;
-                /*width: 70%;
-                margin-right: 40px; */
-                float: left;
                 width: 70%;
                 margin-left: 22%;
             }
@@ -331,12 +321,24 @@
                 width: 90%;
                 display: block;
             }
-            /* HOMEpage  */
+            
+            #hygiene,
+            #welkom {
+                width: 40%;
+                display: inline-block;
+                height: 100px;
+                margin-left: 5%;
+            }
+            
+            #hygiene {
+                width: 37%;
+            }
             
             p {
-                display: inline;
-                width: 40%;
-                margin: 5px 50px;
-                font-family: verdana, sans-serif;
-                flex: none;
+                font-size: 20px;
+            }
+            
+            #locatieT {
+                width: 47%;
+                float: right;
             }
