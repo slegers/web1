@@ -76,13 +76,12 @@
                 font-size: 40px;
                 text-decoration: none;
             }
-            /** CONTAINER **/
             
-            .container {
-                margin: 0px 0px;
-                border: 1px dashed #000;
-                overflow: hidden;
+            .footer-menu .active,
+            nav .active {
+                color: blue;
             }
+            /** CONTAINER **/
             /** SIDEBAR **/
             
             .leftSidebar {
@@ -93,6 +92,7 @@
                 border-bottom-right-radius: 35px;
                 border-top-left-radius: 35px;
                 border-top-right-radius: 35px;
+                width: 20%;
                 margin: 20px 0px;
                 padding: 0px 9px;
                 padding-bottom: 20px;
@@ -119,6 +119,7 @@
                 margin-left: auto;
                 margin-right: auto;
                 padding-bottom: 10px;
+                width: 80%;
             }
             
             .openingsuren {
@@ -147,6 +148,7 @@
             .fb-page {
                 padding-left: 25px;
                 padding-bottom: 10px;
+                width: 100%;
             }
             /** MAIN **/
             
@@ -161,28 +163,6 @@
                 border-top-right-radius: 25px;
                 width: 70%;
                 margin-left: 10px;
-            }
-            
-            .openingsurenMain {
-                border: 1px solid green;
-                /*display: inline-block; */
-                background-color: white;
-                margin: 25px 0px;
-                margin-left: 75px;
-                margin-right: 75px;
-                padding: 15px 0px;
-                border-bottom-left-radius: 35px;
-                border-bottom-right-radius: 35px;
-                border-top-left-radius: 35px;
-                border-top-right-radius: 35px;
-            }
-            
-            .openingsurenMain > h2 {
-                text-align: center;
-            }
-            
-            #openingsurenTekst {
-                text-align: left;
             }
             
             main > img {
@@ -237,9 +217,11 @@
                 border-bottom-right-radius: 25px;
                 border-top-left-radius: 25px;
                 border-top-right-radius: 25px;
+                /*width: 70%;
+                margin-right: 40px; */
+                float: left;
                 width: 70%;
-                margin-right: 40px;
-                float: right;
+                margin-left: 22%;
             }
             
             .footer > * {
@@ -271,7 +253,7 @@
             .contactFooter {
                 display: inline-block;
                 color: aliceblue;
-                width: 200px;
+                width: 30%;
                 margin-left: 80px;
             }
             
@@ -297,6 +279,53 @@
                 font-size: 20px;
             }
             
-            #openingsurenTabel > table {
-                padding: 300px 0px;
+            #openingsurenTabel tr {
+                border: 1px solid green;
+                height: 40px;
+            }
+            /* INFO page  */
+            
+            .openingsurenMain {
+                border: 1px solid green;
+                background-color: white;
+                margin-left: 5%;
+                margin-right: 5%;
+                padding: 2% 0px;
+                border-bottom-left-radius: 35px;
+                border-bottom-right-radius: 35px;
+                border-top-left-radius: 35px;
+                border-top-right-radius: 35px;
+            }
+            
+            .openingsurenMain > h2 {
+                text-align: center;
+            }
+            
+            #openingsurenTekst {
+                text-align: left;
+                margin-top: 20px;
+                margin-left: 17%;
+                display: inline-block;
+                width: 80%;
+            }
+            
+            .info *:not(.openingsurenMain) {
+                margin-left: 3%;
+            }
+            
+            #contactText {
+                display: inline-block;
+                width: 95%;
+            }
+            
+            #contactForm {
+                margin-bottom: 5%;
+                margin-right: 5%;
+                margin-top: 5%;
+                width: 90%
+            }
+            
+            #contactForm *:not(legend) {
+                width: 90%;
+                display: block;
             }
