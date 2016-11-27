@@ -1,337 +1,420 @@
-                                                @media only screen and (max-width: 450px) {
-                                                .banner {
-                                                    display: none;
-                                                }
-                                                img {
-                                                    height: 60%;
-                                                }
-                                                .footer {
-                                                    width: 100%;
-                                                }
-                                                main {
-                                                    width: 100%;
-                                                }
-                                                .mainMenu ul {}
-                                            }
-                                            
-                                            @media only screen and (min-width: 450px) and (max-width: 735px) {
-                                                .footer {
-                                                    width: 100%;
-                                                }
-                                                .banner {
-                                                    display: none;
-                                                }
-                                                .leftSidebar {
-                                                    margin: 25%, 25%;
-                                                    padding: 10%, 50%;
-                                                }
-                                                .leftSidebar > * {}
-                                                main {
-                                                    width: 100%;
-                                                }
-                                                .mainMenu ul {}
-                                            }
-                                            
-                                            @media only screen and (min-width: 735px) {
-                                                .footer {
-                                                    width: 75%;
-                                                    margin-left: 22%;
-                                                }
-                                                .banner {
-                                                    width: 100%;
-                                                }
-                                                .leftSidebar {
-                                                    width: 20%;
-                                                    margin: 20px 0px;
-                                                    padding: 0px 9px;
-                                                    padding-bottom: 20px;
-                                                }
-                                                .leftSidebar > * {
-                                                    width: 100%;
-                                                    margin: 25px 0px;
-                                                }
-                                                main {
-                                                    width: 75%;
-                                                    margin-left: 10px;
-                                                }
-                                                .mainMenu ul {
-                                                    margin-right: 40px;
-                                                    padding-right: 0%;
-                                                }
-                                                .leftSidebar > * {
-                                                    background-color: white;
-                                                }
-                                                body {
-                                                    background-color: darkred;
-                                                    margin: 0;
-                                                }
-                                                img {
-                                                    max-width: 100%;
-                                                }
-                                                .banner {
-                                                    overflow: hidden;
-                                                    background-color: transparent;
-                                                    background-image: url(../images/adres.jpg);
-                                                    background-repeat: no-repeat, no-repeat;
-                                                }
-                                                .headerTitle {
-                                                    display: inline-block;
-                                                    padding: 0px;
-                                                    margin: 0px;
-                                                    margin-left: 5%;
-                                                }
-                                                h1.headerTitle,
-                                                h2,
-                                                h3 {
-                                                    font-family: "Comic Sans MS", cursive, sans-serif;
-                                                }
-                                                h1.headerTitle {
-                                                    font-size: 52px;
-                                                    color: yellow;
-                                                }
-                                                .footer-menu .active,
-                                                nav .active {
-                                                    color: blue;
-                                                }
-                                                .leftSidebar h3 {
-                                                    text-align: center;
-                                                }
-                                                .maandSnack {
-                                                    display: inline-block;
-                                                    background-color: white;
-                                                    border-bottom-left-radius: 35px;
-                                                    border-bottom-right-radius: 35px;
-                                                    border-top-left-radius: 35px;
-                                                    border-top-right-radius: 35px;
-                                                }
-                                                .maandSnack img {
-                                                    display: block;
-                                                    margin-left: auto;
-                                                    margin-right: auto;
-                                                    padding-bottom: 10px;
-                                                    width: 80%;
-                                                }
-                                                .openingsuren {
-                                                    border: 1px solid green;
-                                                    padding: 15px 0px;
-                                                    border-bottom-left-radius: 35px;
-                                                    border-bottom-right-radius: 35px;
-                                                    border-top-left-radius: 35px;
-                                                    border-top-right-radius: 35px;
-                                                }
-                                                .fb {
-                                                    height: 600px;
-                                                    border-bottom-left-radius: 35px;
-                                                    border-bottom-right-radius: 35px;
-                                                    border-top-left-radius: 35px;
-                                                    border-top-right-radius: 35px;
-                                                }
-                                                .fb-page {
-                                                    margin: 5% 25%;
-                                                }
-                                                p {
-                                                    font-size: 17px;
-                                                }
-                                                main > h1 {
-                                                    text-align: center;
-                                                    display: flex;
-                                                    flex-direction: row;
-                                                    justify-content: center;
-                                                }
-                                                main > h1:before,
-                                                main > h1:after {
-                                                    flex-grow: 1;
-                                                    height: 1px;
-                                                    content: '\a0';
-                                                    background-color: black;
-                                                    position: relative;
-                                                    top: 0.5em;
-                                                    margin-left: 100px;
-                                                    margin-right: 100px;
-                                                }
-                                                main > h1:before {
-                                                    margin-right: 20px;
-                                                }
-                                                main> h1:after {
-                                                    margin-left: 20px;
-                                                }
-                                                .footer {
-                                                    background-color: dimgrey;
-                                                    border-bottom-left-radius: 25px;
-                                                    border-bottom-right-radius: 25px;
-                                                    border-top-left-radius: 25px;
-                                                    border-top-right-radius: 25px;
-                                                }
-                                                .footer > * {
-                                                    display: inline;
-                                                    width: 20%;
-                                                }
-                                                /*MENU*/
-                                                .footer-menu > ul > li > a {
-                                                    color: aliceblue;
-                                                }
-                                                .mainMenu {
-                                                    float: right;
-                                                }
-                                                .mainMenu ul {
-                                                    list-style-type: none;
-                                                }
-                                                .mainMenu li {
-                                                    list-style-type: none;
-                                                    display: inline;
-                                                    margin: 15px;
-                                                    padding: 20px;
-                                                    text-align: center;
-                                                    background-color: aliceblue;
-                                                    border-bottom-left-radius: 35px;
-                                                    border-bottom-right-radius: 35px;
-                                                    border-top-left-radius: 35px;
-                                                    border-top-right-radius: 35px;
-                                                }
-                                                nav > ul > li a:hover {
-                                                    color: blue;
-                                                    display: inline;
-                                                    margin: auto;
-                                                }
-                                                nav li > a {
-                                                    color: #000;
-                                                    font-size: 40px;
-                                                    text-decoration: none;
-                                                }
-                                                /** SIDEBAR **/
-                                                .leftSidebar {
-                                                    display: inline;
-                                                    float: left;
-                                                    background-color: firebrick;
-                                                    border-bottom-left-radius: 35px;
-                                                    border-bottom-right-radius: 35px;
-                                                    border-top-left-radius: 35px;
-                                                    border-top-right-radius: 35px;
-                                                }
-                                                /** MAIN **/
-                                                main {
-                                                    margin: 20px 0px;
-                                                    display: inline-block;
-                                                    background-color: white;
-                                                    border-bottom-left-radius: 25px;
-                                                    border-bottom-right-radius: 25px;
-                                                    border-top-left-radius: 25px;
-                                                    border-top-right-radius: 25px;
-                                                }
-                                                main > img {
-                                                    border-bottom-left-radius: 25px;
-                                                    border-bottom-right-radius: 25px;
-                                                    border-top-left-radius: 25px;
-                                                    border-top-right-radius: 25px;
-                                                    margin-left: 5%;
-                                                    margin-top: 2%;
-                                                    margin-right: 2%;
-                                                    width: 40%;
-                                                }
-                                                /** FOOTER */
-                                                .footer-menu > ul {
-                                                    width: 20%;
-                                                    display: inline-block;
-                                                    position: inherit;
-                                                    list-style: none;
-                                                    margin-top: 10px;
-                                                }
-                                                .partners {
-                                                    display: inline-block;
-                                                    margin-top: 20px;
-                                                    padding: 15px;
-                                                }
-                                                .partners > h2 {
-                                                    text-align: center;
-                                                    margin: 0px;
-                                                    color: aliceblue;
-                                                    margin-bottom: 10px;
-                                                }
-                                                .contactFooter {
-                                                    display: inline-block;
-                                                    color: aliceblue;
-                                                    width: 30%;
-                                                    margin-left: 80px;
-                                                }
-                                                .contactFooter a {
-                                                    color: aliceblue;
-                                                    text-decoration: none;
-                                                }
-                                                .copyright {
-                                                    display: inline;
-                                                    font-size: 12px;
-                                                    width: auto;
-                                                    float: right;
-                                                }
-                                                /* INFO PAGE**/
-                                                #openingsurenTabel {
-                                                    text-align: center;
-                                                    align-content: center;
-                                                    margin-left: auto;
-                                                    margin-right: auto;
-                                                    width: 70%;
-                                                    font-size: 20px;
-                                                }
-                                                #openingsurenTabel tr {
-                                                    border: 1px solid green;
-                                                    height: 40px;
-                                                }
-                                                /* INFO page  */
-                                                .openingsurenMain {
-                                                    border: 1px solid green;
-                                                    background-color: white;
-                                                    margin-left: 5%;
-                                                    margin-right: 5%;
-                                                    padding: 2% 0px;
-                                                    border-bottom-left-radius: 35px;
-                                                    border-bottom-right-radius: 35px;
-                                                    border-top-left-radius: 35px;
-                                                    border-top-right-radius: 35px;
-                                                }
-                                                .openingsurenMain > h2 {
-                                                    text-align: center;
-                                                }
-                                                #openingsurenTekst {
-                                                    text-align: left;
-                                                    margin-top: 20px;
-                                                    margin-left: 17%;
-                                                    display: inline-block;
-                                                    width: 80%;
-                                                }
-                                                .info *:not(.openingsurenMain) {
-                                                    margin-left: 3%;
-                                                }
-                                                #contactText {
-                                                    display: inline-block;
-                                                    width: 95%;
-                                                }
-                                                .bicky {
-                                                    height: 100%;
-                                                }
-                                                #contactForm {
-                                                    margin-bottom: 5%;
-                                                    margin-right: 5%;
-                                                    margin-top: 5%;
-                                                    width: 90%
-                                                }
-                                                #contactForm *:not(legend) {
-                                                    width: 90%;
-                                                    display: block;
-                                                }
-                                                #welkom {
-                                                    width: 40%;
-                                                    display: inline-block;
-                                                    margin-left: 5%;
-                                                    margin-bottom: 3%;
-                                                }
-                                                #hygiene {
-                                                    width: 47%;
-                                                    float: right;
-                                                }
-                                                #frietbak {
-                                                    margin-top: 5%;
-                                                }
-                                                #locatieT {
-                                                    width: 47%;
-                                                    float: right;
-                                                }
+        @media only screen and (max-width: 450px) {
+            .banner {
+                display: none;
+            }
+            img {
+                height: 60%;
+            }
+            .footer {
+                width: 100%;
+            }
+            main {
+                width: 100%;
+            }
+            .mainMenu ul {
+                position: relative;
+            }
+            .mainMenu li {
+                float: left;
+                width: 100%;
+                margin-top: 10%;
+                margin-right: 20%;
+                padding: 20% 0%;
+            }
+            .footer > * {
+                width: 15%;
+            }
+        }
+        
+        @media only screen and (min-width: 450px) and (max-width: 735px) {
+            .footer {
+                width: 100%;
+            }
+            .banner {
+                display: none;
+            }
+            .leftSidebar {
+                /* margin: 25%, 25%; */
+                width: 100%;
+            }
+            .leftSidebar > * {
+                padding: 10%, 50%;
+            }
+            main {
+                width: 100%;
+            }
+            .mainMenu ul {
+                display: inline;
+            }
+            .mainMenu li {
+                float: left;
+                width: 100%;
+                margin-top: 10%;
+                margin-right: 20%;
+                padding: 20% 0%;
+            }
+        }
+        
+        @media only screen and (min-width: 736px) {
+            .footer {
+                width: 60%;
+                margin-left: 38%;
+            }
+            .banner {
+                width: 100%;
+            }
+            .leftSidebar {
+                width: 35%;
+                margin: 20px 0px;
+                padding: 0px 9px;
+                padding-bottom: 20px;
+            }
+            .leftSidebar > * {
+                width: 100%;
+                margin: 25px 0px;
+            }
+            main {
+                width: 60%;
+                margin: 25px 0px;
+            }
+            .mainMenu {
+                float: right;
+            }
+            .mainMenu ul {
+                margin-right: 0px;
+                padding-right: 0%;
+            }
+            .mainMenu li {
+                margin: 15px;
+                padding: 20px;
+                display: inline;
+            }
+            .footer > * {
+                display: inline;
+                width: 20%;
+            }
+        }
+        
+        .leftSidebar > * {
+            background-color: white;
+        }
+        
+        body {
+            background-color: darkred;
+            margin: 0;
+        }
+        
+        img {
+            max-width: 100%;
+        }
+        
+        .banner {
+            overflow: hidden;
+            background-color: transparent;
+            background-image: url(../images/adres.jpg);
+            background-repeat: no-repeat, no-repeat;
+        }
+        
+        .headerTitle {
+            display: inline-block;
+            padding: 0px;
+            margin: 0px;
+            margin-left: 5%;
+        }
+        
+        h1.headerTitle,
+        h2,
+        h3 {
+            font-family: "Comic Sans MS", cursive, sans-serif;
+        }
+        
+        h1.headerTitle {
+            font-size: 52px;
+            color: yellow;
+        }
+        
+        .footer-menu .active,
+        nav .active {
+            color: blue;
+        }
+        
+        .leftSidebar h3 {
+            text-align: center;
+        }
+        
+        .maandSnack {
+            display: inline-block;
+            background-color: white;
+            border-bottom-left-radius: 35px;
+            border-bottom-right-radius: 35px;
+            border-top-left-radius: 35px;
+            border-top-right-radius: 35px;
+        }
+        
+        .maandSnack img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 10px;
+            width: 80%;
+        }
+        
+        .openingsuren {
+            border: 1px solid green;
+            padding: 15px 0px;
+            border-bottom-left-radius: 35px;
+            border-bottom-right-radius: 35px;
+            border-top-left-radius: 35px;
+            border-top-right-radius: 35px;
+        }
+        
+        .fb {
+            height: 600px;
+            border-bottom-left-radius: 35px;
+            border-bottom-right-radius: 35px;
+            border-top-left-radius: 35px;
+            border-top-right-radius: 35px;
+        }
+        
+        .fb-page {
+            margin: 5% 25%;
+        }
+        
+        p {
+            font-size: 17px;
+        }
+        
+        main > h1 {
+            text-align: center;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        
+        main > h1:before,
+        main > h1:after {
+            flex-grow: 1;
+            height: 1px;
+            content: '\a0';
+            background-color: black;
+            position: relative;
+            top: 0.5em;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+        
+        main > h1:before {
+            margin-right: 20px;
+        }
+        
+        main> h1:after {
+            margin-left: 20px;
+        }
+        
+        .footer {
+            background-color: dimgrey;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+        }
+        /*MENU*/
+        
+        .footer-menu > ul > li > a {
+            color: aliceblue;
+        }
+        
+        .mainMenu {}
+        
+        .mainMenu ul {
+            list-style-type: none;
+            display: inline-block;
+        }
+        
+        .mainMenu li {
+            list-style-type: none;
+            text-align: center;
+            background-color: aliceblue;
+            border-bottom-left-radius: 35px;
+            border-bottom-right-radius: 35px;
+            border-top-left-radius: 35px;
+            border-top-right-radius: 35px;
+        }
+        
+        nav > ul > li a:hover {
+            color: blue;
+            display: inline;
+            margin: auto;
+        }
+        
+        nav li > a {
+            color: #000;
+            font-size: 40px;
+            text-decoration: none;
+        }
+        /** SIDEBAR **/
+        
+        .leftSidebar {
+            display: inline;
+            float: left;
+            background-color: firebrick;
+            border-bottom-left-radius: 35px;
+            border-bottom-right-radius: 35px;
+            border-top-left-radius: 35px;
+            border-top-right-radius: 35px;
+        }
+        /** MAIN **/
+        
+        main {
+            margin: 20px 0px;
+            display: inline-block;
+            background-color: white;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+        }
+        
+        main > img {
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            margin-left: 5%;
+            margin-top: 2%;
+            margin-right: 2%;
+            width: 40%;
+        }
+        /** FOOTER */
+        
+        .footer-menu > ul {
+            width: 20%;
+            display: inline-block;
+            position: inherit;
+            list-style: none;
+            margin-top: 10px;
+        }
+        
+        .partners {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px;
+        }
+        
+        .partners > h2 {
+            text-align: center;
+            margin: 0px;
+            color: aliceblue;
+            margin-bottom: 10px;
+        }
+        
+        .contactFooter {
+            display: inline-block;
+            color: aliceblue;
+            width: 30%;
+            margin-left: 80px;
+        }
+        
+        .contactFooter a {
+            color: aliceblue;
+            text-decoration: none;
+        }
+        
+        .copyright {
+            display: inline;
+            font-size: 12px;
+            width: auto;
+            float: right;
+        }
+        /* INFO PAGE**/
+        
+        #openingsurenTabel {
+            text-align: center;
+            align-content: center;
+            margin-left: auto;
+            margin-right: auto;
+            width: 70%;
+            font-size: 20px;
+        }
+        
+        #openingsurenTabel tr {
+            border: 1px solid green;
+            height: 40px;
+        }
+        /* INFO page  */
+        
+        .openingsurenMain {
+            border: 1px solid green;
+            background-color: white;
+            margin-left: 5%;
+            margin-right: 5%;
+            padding: 2% 0px;
+            border-bottom-left-radius: 35px;
+            border-bottom-right-radius: 35px;
+            border-top-left-radius: 35px;
+            border-top-right-radius: 35px;
+        }
+        
+        .openingsurenMain > h2 {
+            text-align: center;
+        }
+        
+        #openingsurenTekst {
+            text-align: left;
+            margin-top: 20px;
+            margin-left: 17%;
+            display: inline-block;
+            width: 80%;
+        }
+        
+        .info *:not(.openingsurenMain) {
+            margin-left: 3%;
+        }
+        
+        #contactText {
+            display: inline-block;
+            width: 95%;
+        }
+        
+        .bicky {
+            height: 100%;
+        }
+        
+        #contactForm {
+            margin-bottom: 5%;
+            margin-right: 5%;
+            margin-top: 5%;
+            width: 90%
+        }
+        
+        #contactForm *:not(legend) {
+            width: 90%;
+            display: block;
+        }
+        
+        #welkom {
+            width: 40%;
+            display: inline-block;
+            margin-left: 5%;
+            margin-bottom: 3%;
+        }
+        
+        #hygiene {
+            width: 47%;
+            float: right;
+        }
+        
+        #frietbak {
+            margin-top: 5%;
+        }
+        
+        #locatieT {
+            width: 47%;
+            float: right;
+        }
+        
+        #frame {
+            widows: 600px;
+            max-width: 800px;
+            max-height: 500px;
+        }
