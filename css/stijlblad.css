@@ -52,7 +52,7 @@
         }
     }
     
-    @media only screen and (min-width: 450px) and (max-width: 735px) {
+    @media only screen and (min-width: 450px) and (max-width: 736px) {
         .footer {
             width: 100%;
             margin-left: 3%;
@@ -72,12 +72,14 @@
             background-color: aliceblue;
             padding: 10%, 50%;
             margin-top: 5%;
+            margin-left: 2%;
         }
         #hygiene {
             width: 95%;
         }
         main {
             width: 100%;
+            margin-left: 2%;
         }
         .mainMenu ul {
             display: inline;
@@ -102,7 +104,7 @@
         }
     }
     
-    @media only screen and (min-width: 736px) {
+    @media only screen and (min-width: 737px) {
         img {
             max-width: 100%;
         }
@@ -122,7 +124,7 @@
             margin: 25px 0px;
         }
         main {
-            width: 65%;
+            width: 70%;
             margin-left: 20px;
         }
         .mainMenu {
