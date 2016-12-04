@@ -145,8 +145,11 @@
         }
         #locatieT,
         #hygiene {
-            width: 47%;
-            float: right;
+            width: 40%;
+            display: inline-block;
+            margin-right: 5%;
+            margin-bottom: 3%;
+            margin-left: 6%;
         }
         #welkom {
             width: 40%;
@@ -447,6 +450,8 @@
     
     #frietbak {
         margin-top: 5%;
+        display: inline;
+        position: inherit;
     }
     
     #frame {
