@@ -202,13 +202,17 @@
         text-align: center;
     }
     
-    .maandSnack {
-        display: inline-block;
-        background-color: white;
+    .leftSidebar .maandSnack,
+    .openingsuren,
+    .fb {
         border-bottom-left-radius: 35px;
         border-bottom-right-radius: 35px;
         border-top-left-radius: 35px;
         border-top-right-radius: 35px;
+    }
+    
+    .maandSnack {
+        display: inline-block;
     }
     
     .maandSnack img {
@@ -222,22 +226,14 @@
     .openingsuren {
         border: 1px solid green;
         padding: 15px 0px;
-        border-bottom-left-radius: 35px;
-        border-bottom-right-radius: 35px;
-        border-top-left-radius: 35px;
-        border-top-right-radius: 35px;
     }
     
     .fb {
         height: 600px;
-        border-bottom-left-radius: 35px;
-        border-bottom-right-radius: 35px;
-        border-top-left-radius: 35px;
-        border-top-right-radius: 35px;
     }
     
     .fb-page {
-        margin: 0% 25%;
+        margin: 0% 15%;
         width: 50%;
     }
     
@@ -284,8 +280,6 @@
     .footer-menu > ul > li > a {
         color: aliceblue;
     }
-    
-    .mainMenu {}
     
     .mainMenu ul {
         list-style-type: none;
@@ -336,7 +330,7 @@
         border-top-right-radius: 25px;
     }
     
-    main > img {
+    main img {
         border-bottom-left-radius: 25px;
         border-bottom-right-radius: 25px;
         border-top-left-radius: 25px;
@@ -435,6 +429,7 @@
     #contactText {
         display: inline-block;
         width: 95%;
+        text-align: justify;
     }
     
     #contactForm {
@@ -463,4 +458,10 @@
     
     p {
         text-align: justify;
+    }
+    
+    .menukaart > ul,
+    h2 {
+        margin-left: 5%;
+        width: 40%;
     }
