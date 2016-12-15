@@ -459,3 +459,7 @@
         max-width: 800px;
         max-height: 500px;
     }
+    
+    p {
+        text-align: justify;
+    }
