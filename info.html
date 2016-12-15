@@ -106,27 +106,26 @@
                     <fieldset>
                         <legend> Uw gegevens</legend>
                         <label for="naam">Naam:
-                            <input id="naam" type="text" required>
+                            <input id="naam" type="text" required name="Naam:">
                             <br>
                             <br> </label>
-                        <label for="e-mailadres">e-mailadres:
-                            <input id="mailadres" type="email" required>
+                        <label for="mailadres">e-mailadres:
+                            <input id="mailadres" type="email" required name="e-mailadres">
                             <br>
                             <br> </label>
-                        <label for="gsm-/telefoonnummer">gsm-/telefoonnummer:
-                            <input id="nummer:" type="text" required>
+                        <label for="nummer">gsm-/telefoonnummer:
+                            <input id="nummer" type="text" required name="gsm-/telefoonnummer">
                             <br>
                             <br> </label>
-                    </fieldset>
-                    <fieldset>
-                        <legend> mail</legend>
+                        <!-- <fieldset>
+                       <legend> mail</legend> -->
                         <label for="subject">Onderwerp:
                             <br>
                             <input id="subject" type="text" required size="60">
                             <br>
                             <br> </label>
                         <label for="mail">
-                            <textarea rows="14" cols="90" name="comment" form="usrform" required> Schrijf hier je mail...</textarea>
+                            <textarea id="mail" rows="14" cols="90" name="comment" form="contactForm" required> Schrijf hier je mail...</textarea>
                             <br>
                             <br> </label>
                         <label for="copy"> Wil je een kopie van deze mail ontvangen?
@@ -141,6 +140,7 @@
                         <br>
                         <label for="submit">
                             <input id="submit" type="submit" value="Verzenden"> </label>
+                        <!-- </fieldset> -->
                     </fieldset>
                 </form>
             </article>
