@@ -237,7 +237,8 @@
     }
     
     .fb-page {
-        margin: 5% 25%;
+        margin: 5% auto;
+        width: 50%;
     }
     
     p {
