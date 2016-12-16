@@ -9,6 +9,7 @@
         }
         img {
             max-width: 90%;
+            max-height: 30%;
         }
         main {
             width: 100%;
@@ -52,14 +53,16 @@
         }
     }
     
-    @media only screen and (min-width: 450px) and (max-width: 736px) {
+    @media only screen and (min-width: 450px) and (max-width: 759px) {
         .footer {
             width: 100%;
-            margin-left: 3%;
+            margin-left: 5%;
             margin-top: 3%;
         }
         img {
             max-width: 100%;
+            width: 70%;
+            height: 70%;
         }
         .banner {
             display: none;
@@ -73,6 +76,7 @@
             padding: 10%, 50%;
             margin-top: 5%;
             margin-left: 2%;
+            width: 90%;
         }
         #hygiene {
             width: 95%;
@@ -104,7 +108,67 @@
         }
     }
     
-    @media only screen and (min-width: 737px) {
+    @media only screen and (min-width: 760px)and (max-width: 1020px) {
+        img {
+            max-width: 100%;
+            width: 70%;
+            height: 70%;
+        }
+        .footer {
+            width: 70%;
+            margin-left: 28%;
+            margin-top: 3%;
+        }
+        .leftSidebar {
+            width: 25%;
+            margin: 20px 0px;
+            padding: 0px 9px;
+            padding-bottom: 20px;
+        }
+        .leftSidebar > * {
+            width: 100%;
+            margin: 25px 0px;
+        }
+        main {
+            width: 70%;
+            margin-left: 20px;
+        }
+        .mainMenu {
+            float: right;
+        }
+        .mainMenu ul {
+            margin-right: 0px;
+            padding-right: 0%;
+        }
+        .mainMenu li {
+            margin: 15px;
+            padding: 20px;
+            display: inline;
+        }
+        .footer > * {
+            display: inline;
+            width: 20%;
+        }
+        #locatieT,
+        #hygiene {
+            width: 40%;
+            display: inline-block;
+            margin-right: 5%;
+            margin-bottom: 3%;
+            margin-left: 6%;
+        }
+        #welkom {
+            width: 40%;
+            display: inline-block;
+            margin-left: 5%;
+            margin-bottom: 3%;
+        }
+        .leftSidebar > * {
+            background-color: white;
+        }
+    }
+    
+    @media only screen and (min-width: 1020px) {
         img {
             max-width: 100%;
         }
@@ -233,7 +297,7 @@
     }
     
     .fb-page {
-        margin: 0% 15%;
+        margin: 0% 5%;
         width: 50%;
     }
     
@@ -274,6 +338,7 @@
         border-bottom-right-radius: 25px;
         border-top-left-radius: 25px;
         border-top-right-radius: 25px;
+        padding-left: 5%;
     }
     /*MENU*/
     
@@ -353,7 +418,6 @@
     .partners {
         display: inline-block;
         margin-top: 20px;
-        padding: 15px;
     }
     
     .partners > h2 {
@@ -445,7 +509,6 @@
     }
     
     #frietbak {
-        margin-top: 5%;
         display: inline;
         position: inherit;
     }
@@ -458,10 +521,18 @@
     
     p {
         text-align: justify;
+        margin-left: 6%;
+        margin-right: 5%;
     }
     
     .menukaart > ul,
     h2 {
         margin-left: 5%;
         width: 40%;
+        display: inline;
+    }
+    
+    .menukaart li {
+        margin-left: 10%;
+        width: 30%;
     }
