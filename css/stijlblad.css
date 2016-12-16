@@ -1,4 +1,4 @@
-    @media only screen and (max-width: 450px) {
+    @media only screen and (max-width: 551px) {
         .banner {
             display: none;
         }
@@ -45,15 +45,22 @@
             width: 100px;
             height: 100px;
             max-width: 200%;
+            margin-left: 70%;
+        }
+        .partners > h2 {
+            padding-left: 70%;
         }
         #welkom,
         #locatieT,
         #hygiene {
             width: 95%;
         }
+        h3 {
+            margin-left: 5%;
+        }
     }
     
-    @media only screen and (min-width: 450px) and (max-width: 759px) {
+    @media only screen and (min-width: 551px) and (max-width: 759px) {
         .footer {
             width: 100%;
             margin-left: 5%;
@@ -68,7 +75,6 @@
             display: none;
         }
         .leftSidebar {
-            /* margin: 25%, 25%; */
             width: 100%;
         }
         .leftSidebar > * {
@@ -105,6 +111,19 @@
             display: inline-block;
             margin-left: 5%;
             margin-bottom: 3%;
+        }
+        img:not(.partners) {
+            width: auto;
+            height: 90%;
+        }
+        .partners > img {
+            width: 100px;
+            height: 100px;
+            max-width: 200%;
+            margin-left: 70%;
+        }
+        .partners > h2 {
+            padding-left: 70%;
         }
     }
     
@@ -166,6 +185,19 @@
         .leftSidebar > * {
             background-color: white;
         }
+        img:not(.partners) {
+            width: auto;
+            height: 90%;
+        }
+        .partners > img {
+            width: 100px;
+            height: 100px;
+            max-width: 200%;
+            margin-left: 70%;
+        }
+        .partners > h2 {
+            padding-left: 70%;
+        }
     }
     
     @media only screen and (min-width: 1020px) {
@@ -203,10 +235,6 @@
             padding: 20px;
             display: inline;
         }
-        .footer > * {
-            display: inline;
-            width: 20%;
-        }
         #locatieT,
         #hygiene {
             width: 40%;
@@ -224,11 +252,29 @@
         .leftSidebar > * {
             background-color: white;
         }
+        img:not(.partners) {
+            width: auto;
+            height: 90%;
+        }
+        .partners > img {
+            width: 100px;
+            height: 100px;
+            max-width: 200%;
+            margin-left: 70%;
+        }
+        .partners > h2 {
+            padding-left: 70%;
+        }
     }
     
     body {
         background-color: darkred;
         margin: 0;
+    }
+    
+    .footer > * {
+        display: inline;
+        width: 20%;
     }
     
     .banner {
@@ -288,7 +334,6 @@
     }
     
     .openingsuren {
-        border: 1px solid green;
         padding: 15px 0px;
     }
     
@@ -338,7 +383,6 @@
         border-bottom-right-radius: 25px;
         border-top-left-radius: 25px;
         border-top-right-radius: 25px;
-        padding-left: 5%;
     }
     /*MENU*/
     
@@ -410,9 +454,16 @@
     .footer-menu > ul {
         width: 20%;
         display: inline-block;
-        position: inherit;
         list-style: none;
         margin-top: 10px;
+        position: static;
+    }
+    
+    .footer-menu li {
+        list-style: none;
+        margin-top: 10px;
+
+        padding-right: 100%;
     }
     
     .partners {
@@ -457,13 +508,12 @@
     }
     
     #openingsurenTabel tr {
-        border: 1px solid green;
         height: 40px;
     }
     /* INFO page  */
     
     .openingsurenMain {
-        border: 1px solid green;
+
         background-color: white;
         margin-left: 5%;
         margin-right: 5%;
