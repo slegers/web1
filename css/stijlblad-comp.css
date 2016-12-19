@@ -9,7 +9,9 @@
         }
         img {
             max-width: 90%;
-            max-height: 30%;
+            max-height: 90%;
+            width: 100%;
+            height: auto;
         }
         main {
             width: 100%;
@@ -39,7 +41,7 @@
         }
         img:not(.partners) {
             width: auto;
-            height: 90%;
+            height: auto;
         }
         .partners > img {
             width: 100px;
@@ -68,8 +70,8 @@
         }
         img {
             max-width: 100%;
-            width: 70%;
-            height: 70%;
+            width: auto;
+            height: auto;
         }
         .banner {
             display: none;
@@ -114,7 +116,7 @@
         }
         img:not(.partners) {
             width: auto;
-            height: 90%;
+            height: auto;
         }
         .partners > img {
             width: 100px;
@@ -187,7 +189,7 @@
         }
         img:not(.partners) {
             width: auto;
-            height: 90%;
+            height: auto;
         }
         .partners > img {
             width: 100px;
@@ -203,8 +205,9 @@
     @media only screen and (min-width: 1020px) {
         img {
             max-width: 100%;
-            width: 70%;
-            height: 70%;
+            width: 100%;
+            height: auto;
+            background-size: auto 200%;
         }
         .footer {
             width: 70%;
@@ -254,10 +257,6 @@
         .leftSidebar > * {
             background-color: #fff;
         }
-        img:not(.partners) {
-            width: auto;
-            height: 90%;
-        }
         .partners > img {
             width: 100px;
             height: 100px;
@@ -297,7 +296,7 @@
     h1.headerTitle,
     h2,
     h3 {
-        font-family: "Comic Sans MS", cursive, sans-serif;
+        font-family: "monospace", cursive, sans-serif;
     }
     
     h1.headerTitle {
@@ -329,7 +328,8 @@
         margin-left: auto;
         margin-right: auto;
         padding-bottom: 10px;
-        width: 80%;
+        width: auto;
+        height: auto;
     }
     
     .openingsuren {
@@ -440,6 +440,7 @@
         margin-left: 2%;
         margin-top: 2%;
         margin-right: 2%;
+        height: auto;
     }
     
     .footer-menu li {
@@ -486,6 +487,7 @@
         margin-left: auto;
         margin-right: auto;
         width: 70%;
+        height: auto;
         font-size: 20px;
     }
     
