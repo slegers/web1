@@ -34,7 +34,7 @@
             width: 100%;
         }
         .leftSidebar > * {
-            background-color: aliceblue;
+            background-color: #f0f8ff;
             margin-top: 5%;
         }
         img:not(.partners) {
@@ -78,7 +78,7 @@
             width: 100%;
         }
         .leftSidebar > * {
-            background-color: aliceblue;
+            background-color: #f0f8ff;
             padding: 10%, 50%;
             margin-top: 5%;
             margin-left: 2%;
@@ -377,7 +377,7 @@
     }
     
     .footer {
-        background-color: dimgrey;
+        background-color: #696969;
         border-radius: 25px;
     }
     /*MENU*/
@@ -414,7 +414,7 @@
     .leftSidebar {
         display: inline;
         float: left;
-        background-color: firebrick;
+        background-color: #b22222;
         border-radius: 35px;
     }
     /** MAIN **/
@@ -456,19 +456,19 @@
     .partners > h2 {
         text-align: center;
         margin: 0px;
-        color: aliceblue;
+        color: #f0f8ff;
         margin-bottom: 10px;
     }
     
     .contactFooter {
         display: inline-block;
-        color: aliceblue;
+        color: #f0f8ff;
         width: 30%;
         margin-left: 80px;
     }
     
     .contactFooter a {
-        color: aliceblue;
+        color: #f0f8ff;
         text-decoration: none;
     }
     
