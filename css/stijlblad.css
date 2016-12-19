@@ -37,10 +37,6 @@
         background-color: aliceblue;
         margin-top: 5%;
     }
-    img:not(.partners) {
-        width: auto;
-        height: 90%;
-    }
     .partners > img {
         width: 100px;
         height: 100px;
@@ -68,8 +64,8 @@
     }
     img {
         max-width: 100%;
-        width: 70%;
-        height: 70%;
+        width: 30%;
+        height: 30%;
     }
     .banner {
         display: none;
@@ -112,10 +108,6 @@
         margin-left: 5%;
         margin-bottom: 3%;
     }
-    img:not(.partners) {
-        width: auto;
-        height: 90%;
-    }
     .partners > img {
         width: 100px;
         height: 100px;
@@ -130,8 +122,6 @@
 @media only screen and (min-width: 760px)and (max-width: 1020px) {
     img {
         max-width: 100%;
-        width: 70%;
-        height: 70%;
     }
     .footer {
         width: 70%;
@@ -184,10 +174,6 @@
     }
     .leftSidebar > * {
         background-color: white;
-    }
-    img:not(.partners) {
-        width: auto;
-        height: 90%;
     }
     .partners > img {
         width: 100px;
@@ -292,7 +278,7 @@ body {
 h1.headerTitle,
 h2,
 h3 {
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: "Lucida Sans Unicode", cursive, sans-serif;
 }
 
 h1.headerTitle {
